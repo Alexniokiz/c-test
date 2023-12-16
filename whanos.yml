@@ -1,0 +1,9 @@
+# Example application
+deployment:
+    resources:
+        limits:
+            memory: "128M"
+        requests:
+            memory: "128M"
+    ports:
+        - 3000
